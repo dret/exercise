@@ -10,6 +10,7 @@ So far the following APIs have been taken into consideration:
 * [Google Fit](googlefit.md) (111 exercise types)
 * [Health Graph API](healthgraph.md) (32 exercise types)
 * [Moves API](moves.md) (74 exercise types)
+* [NikeFuel](nikefuel.md) (84 exercise types)
 * [Strava V3](strava-v3.md) (28 exercise types)
 
 Collaborating
