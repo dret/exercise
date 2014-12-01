@@ -5,10 +5,10 @@ An attempt to create a vocabulary of exercise types than can be shared across se
 
 So far the following APIs have been taken into consideration:
 
-* [Strava V3](strava-v3.md) (28 exercise types)
+* [Google Fit](googlefit.md) (111 exercise types)
 * [Health Graph API](healthgraph.md) (32 exercise types)
 * [Moves API](moves.md) (74 exercise types)
-* [Google Fit](googlefit.md) (111 exercise types)
+* [Strava V3](strava-v3.md) (28 exercise types)
 
 Collaborating
 -------------

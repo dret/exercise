@@ -9,6 +9,7 @@ An attempt to create a vocabulary of exercise types than can be shared across se
 
 So far the following APIs have been taken into consideration:&#xa;&#xa;</xsl:text>
       <xsl:for-each select="//API">
+        <xsl:sort select="@name"/>
         <xsl:text>* [</xsl:text>
         <xsl:value-of select="@name"/>
         <xsl:text>](</xsl:text>
