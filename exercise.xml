@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="exercise.xsl"?>
+<exercises>
+    <API id="strava-v3" name="Strava V3" href="http://strava.github.io/api/v3/">
+        <exercise name="Ride"/>
+        <exercise name="Run"/>
+        <exercise name="Swim"/>
+        <exercise name="Hike"/>
+        <exercise name="Walk"/>
+        <exercise name="AlpineSki"/>
+        <exercise name="BackcountrySki"/>
+        <exercise name="Canoeing"/>
+        <exercise name="CrossCountrySkiing"/>
+        <exercise name="Crossfit"/>
+        <exercise name="Elliptical"/>
+        <exercise name="IceSkate"/>
+        <exercise name="InlineSkate"/>
+        <exercise name="Kayaking"/>
+        <exercise name="Kitesurf"/>
+        <exercise name="NordicSki"/>
+        <exercise name="RockClimbing"/>
+        <exercise name="RollerSki"/>
+        <exercise name="Rowing"/>
+        <exercise name="Snowboard"/>
+        <exercise name="Snowshoe"/>
+        <exercise name="tairStepper"/>
+        <exercise name="StandUpPaddling"/>
+        <exercise name="Surfing"/>
+        <exercise name="WeightTraining"/>
+        <exercise name="Windsurf"/>
+        <exercise name="Workout"/>
+        <exercise name="Yoga"/>
+    </API>
+</exercises>
