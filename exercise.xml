@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="exercise.xsl"?>
 <exercises>
+    <vocabulary>
+        <exercise id="run"/>
+        <exercise id="walk"/>
+        <exercise id="hike"/>
+        <exercise id="ride"/>
+        <exercise id="swim"/>
+    </vocabulary>
     <API id="strava-v3" name="Strava V3" href="http://strava.github.io/api/v3/">
         <exercise name="Ride"/>
         <exercise name="Run"/>
@@ -30,5 +37,39 @@
         <exercise name="Windsurf"/>
         <exercise name="Workout"/>
         <exercise name="Yoga"/>
+    </API>
+    <API id="healthgraph" name="Health Graph API" href="http://developer.runkeeper.com/healthgraph/">
+        <exercise name="Running"/>
+        <exercise name="Cycling"/>
+        <exercise name="Mountain Biking"/>
+        <exercise name="Walking"/>
+        <exercise name="Hiking"/>
+        <exercise name="Downhill Skiing"/>
+        <exercise name="Cross-Country Skiing"/>
+        <exercise name="Snowboarding"/>
+        <exercise name="Skating"/>
+        <exercise name="Swimming"/>
+        <exercise name="Wheelchair"/>
+        <exercise name="Rowing"/>
+        <exercise name="Elliptical"/>
+        <exercise name="Other"/>
+        <exercise name="Yoga"/>
+        <exercise name="Pilates"/>
+        <exercise name="CrossFit"/>
+        <exercise name="Spinning"/>
+        <exercise name="Zumba"/>
+        <exercise name="Barre"/>
+        <exercise name="Group Workout"/>
+        <exercise name="Dance"/>
+        <exercise name="Bootcamp"/>
+        <exercise name="Boxing / MMA"/>
+        <exercise name="Meditation"/>
+        <exercise name="Strength Training"/>
+        <exercise name="Circuit Training"/>
+        <exercise name="Core Strengthening"/>
+        <exercise name="Arc Trainer"/>
+        <exercise name="Stairmaster / Stepwell"/>
+        <exercise name="Sports"/>
+        <exercise name="Nordic Walking"/>
     </API>
 </exercises>
