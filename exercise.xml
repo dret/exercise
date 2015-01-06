@@ -30,7 +30,7 @@
         <exercise name="Rowing"/>
         <exercise name="Snowboard"/>
         <exercise name="Snowshoe"/>
-        <exercise name="tairStepper"/>
+        <exercise name="StairStepper"/>
         <exercise name="StandUpPaddling"/>
         <exercise name="Surfing"/>
         <exercise name="WeightTraining"/>

@@ -22,7 +22,7 @@
 * Rowing
 * Snowboard
 * Snowshoe
-* tairStepper
+* StairStepper
 * StandUpPaddling
 * Surfing
 * WeightTraining
