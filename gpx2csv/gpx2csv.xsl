@@ -6,6 +6,7 @@
   <xsl:output method="text" encoding="UTF-8"/>
   <xsl:template match="/">
     <xsl:for-each select="//gpx:trkpt[exists(gpx:time) and exists(gpx:extensions/gpxtpx:TrackPointExtension/gpxtpx:hr[xs:integer(text()) ne 0])]">
+      <!-- Only GPX points with time stamps and HR values >0 will be considered in the tranfomation. -->
       <xsl:value-of select="gpx:time/text()"/>
       <xsl:text>,</xsl:text>
       <xsl:value-of select="gpx:extensions/gpxtpx:TrackPointExtension/gpxtpx:hr/text()"/>
