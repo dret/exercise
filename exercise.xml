@@ -320,7 +320,7 @@
         <exercise name="HKWorkoutActivityTypeWrestling"/>
         <exercise name="HKWorkoutActivityTypeYoga"/>
     </API>
-    <API id="athelete.com" name="Athlete.com API" href="https://athletecom-api.readthedocs.org/">
+    <API id="athlete.com" name="Athlete.com API" href="https://athletecom-api.readthedocs.org/">
         <exercise name="Running"/>
         <exercise name="Walking"/>
         <exercise name="Cycling"/>
