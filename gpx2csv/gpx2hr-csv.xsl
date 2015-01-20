@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Takes GPX as input and produces CSV of elevated hear rate episodes as output. -->
+<!-- Takes GPX as input and produces CSV of elevated heart rate episodes as output. -->
 <!-- Input must be GPX with embedded HR data. Only GPS points with HR values >0 will be considered. -->
 <!-- Output is CSV with elevated HR episodes in the following form: startTime-ISO, endTime-ISO, miniumHR, maximumHR, averageHR -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:gpx="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
