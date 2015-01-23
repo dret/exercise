@@ -412,4 +412,10 @@
         <exercise name="YOGA"/>
         <exercise name="OTHER"/>
     </API>
+    <API id="sony-lifelog" name="Sony Lifelog API" href="https://developer.sony.com/develop/services/lifelog-api/endpoints/activities/#physicalActivityType">
+        <exercise name="walk"/>
+        <exercise name="run"/>
+        <exercise name="bicycle"/>
+        <exercise name="other"/>
+    </API>
 </exercises>
