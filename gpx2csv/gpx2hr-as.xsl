@@ -10,7 +10,7 @@
     <!-- Only GPX points with time stamps and HR values >0 will be considered in the transformation. -->
       <xsl:if test="xs:integer(current-group()[1]/gpx:extensions/gpxtpx:TrackPointExtension/gpxtpx:hr) ge $HR">
         <xsl:text>{ "verb" : "elevatedHeartRate",
-  "actor"     : { "objectType" : "person", "id" : http://dret.net/netdret, "displayName" : "Erik" },
+  "actor"     : { "objectType" : "person", "id" : "http://dret.net/netdret", "displayName" : "Erik" },
   "object"    : {	"objectType" : "labreport",
     "title"   : "SiemensHeartRate Labreport", 
     "id"      : "http://example.org/heartRateData/17",
