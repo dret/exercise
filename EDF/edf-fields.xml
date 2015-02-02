@@ -6,8 +6,16 @@
         <name>Timestamp</name>
         <documentation>[Internet Timestamps (RFC 3339)](https://tools.ietf.org/html/rfc3339)</documentation>
     </field>
+    <field id="lat">
+        <name>Latitude</name>
+        <documentation>[WGS84](http://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) in decimal notation</documentation>
+    </field>
+    <field id="lon">
+        <name>Longitude</name>
+        <documentation>[WGS84](http://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) in decimal notation</documentation>
+    </field>
     <field id="HR">
         <name>Heartrate</name>
-        <documentation>...</documentation>
+        <documentation>measured in beats per minute</documentation>
     </field>
 </EDF>
