@@ -7,11 +7,13 @@
     <xsl:template match="/">
         <xsl:variable name="basis-line" select="tokenize(unparsed-text($basis-csv), '&#xa;')"/>
         <xsl:result-document href="{$basis-edf}" method="text" encoding="UTF-8">
-            <xsl:text>header</xsl:text>
+            <xsl:text>time,HR</xsl:text>
             <xsl:value-of select="$eol"/>
             <xsl:for-each select="$basis-line[(position() gt 1) and (position() lt last())]">
                 <xsl:value-of select="db:epochToDate(tokenize(., ',')[2])"/>
                 <xsl:text>,</xsl:text>
+                <xsl:variable name="hr" select="tokenize(., ',')[4]"/>
+                <xsl:value-of select="if ( $hr castable as xs:integer ) then $hr else ''"/>
                 <xsl:value-of select="$eol"/>
             </xsl:for-each>
         </xsl:result-document>
