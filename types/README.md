@@ -13,8 +13,3 @@ So far the following APIs have been taken into consideration:
 * [NikeFuel](nikefuel.md) (84 exercise types)
 * [Sony Lifelog API](sony-lifelog.md) (4 exercise types)
 * [Strava V3](strava-v3.md) (28 exercise types)
-
-Collaborating
-=============
-
-Feel free to fork this repository and issue pull requests (which I might or might not choose to accept).

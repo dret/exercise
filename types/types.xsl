@@ -18,10 +18,6 @@ So far the following APIs have been taken into consideration:&#xa;&#xa;</xsl:tex
         <xsl:value-of select="count(exercise)"/>
         <xsl:text> exercise types)&#xa;</xsl:text>
       </xsl:for-each>
-<xsl:text>&#xa;Collaborating
-=============
-
-Feel free to fork this repository and issue pull requests (which I might or might not choose to accept).</xsl:text>
     </xsl:result-document>
     <xsl:for-each select="//API">
       <xsl:result-document href="{@id}.md" method="text">

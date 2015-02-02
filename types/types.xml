@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="exercise.xsl"?>
+<?xml-stylesheet type="text/xsl" href="types.xsl"?>
 <exercises>
     <API id="strava-v3" name="Strava V3" href="http://strava.github.io/api/v3/">
         <exercise name="Ride"/>
