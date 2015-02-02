@@ -12,8 +12,8 @@
             <xsl:for-each select="$basis-line[(position() gt 1) and (position() lt last())]">
                 <xsl:value-of select="db:epochToDate(tokenize(., ',')[2])"/>
                 <xsl:text>,</xsl:text>
-                <xsl:variable name="hr" select="tokenize(., ',')[4]"/>
-                <xsl:value-of select="if ( $hr castable as xs:integer ) then $hr else ''"/>
+                <xsl:variable name="HR" select="tokenize(., ',')[4]"/>
+                <xsl:value-of select="if ( $HR castable as xs:integer ) then $HR else ''"/>
                 <xsl:text>,</xsl:text>
                 <xsl:variable name="steps" select="tokenize(., ',')[5]"/>
                 <xsl:value-of select="if ( $steps castable as xs:integer ) then $steps else ''"/>
