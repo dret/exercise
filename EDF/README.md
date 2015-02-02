@@ -8,13 +8,5 @@ A simple, extensible, and open data format for representing exercise data based 
 
 So far the following 2 fields have been defined:
 
-HR: Heartrate
-----------
-
-...
-
-time: Timestamp
-----------
-
-[Internet Timestamps (RFC 3339)](https://tools.ietf.org/html/rfc3339)
-
+* [HR: Heartrate](fields#HR)
+* [time: Timestamp](fields#time)
