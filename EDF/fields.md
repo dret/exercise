@@ -2,7 +2,7 @@ Exercise Data Format (EDF) Fields
 =================================
 
 
-These are the currently defined fields (total of 8) for the [Exercise Data Format (EDF)](./):
+These are the currently defined fields (total of 9) for the [Exercise Data Format (EDF)](./):
 
 GSR
 ----------
@@ -14,6 +14,12 @@ HR
 ----------
 
 **Heartrate**: measured in beats per minute
+
+
+alt
+----------
+
+**Altitude**: altitude above sea level in meters
 
 
 atemp

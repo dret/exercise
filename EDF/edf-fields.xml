@@ -14,6 +14,10 @@
         <name>Longitude</name>
         <documentation>[WGS84](http://en.wikipedia.org/wiki/World_Geodetic_System#A_new_World_Geodetic_System:_WGS_84) in decimal notation</documentation>
     </field>
+    <field id="alt">
+        <name>Altitude</name>
+        <documentation>altitude above sea level in meters</documentation>
+    </field>
     <field id="HR">
         <name>Heartrate</name>
         <documentation>measured in beats per minute</documentation>
