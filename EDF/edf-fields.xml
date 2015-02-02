@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edf-fields.xsl"?>
+<!-- Any documentation should use MD markup if any kind of content beyond plain text is required. -->
+<EDF>
+    <field name="time">
+        <documentation>[Internet Timestamps (RFC 3339)](https://tools.ietf.org/html/rfc3339)</documentation>
+    </field>
+    <field name="HR">
+        <documentation>...</documentation>
+    </field>
+</EDF>
