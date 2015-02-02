@@ -14,8 +14,27 @@ So far the following </xsl:text>
       <xsl:value-of select="count(//field)"/>
       <xsl:text> fields have been defined:&#xa;&#xa;</xsl:text>
       <xsl:for-each select="//field">
-        <xsl:sort select="@name"/>
-        <xsl:value-of select="@name"/>
+        <xsl:sort select="@id"/>
+        <xsl:value-of select="@id"/>
+        <xsl:text>: </xsl:text>
+        <xsl:value-of select="name"/>
+        <xsl:text>&#xa;----------&#xa;&#xa;</xsl:text>
+        <xsl:value-of select="documentation"/>
+        <xsl:text>&#xa;&#xa;</xsl:text>
+      </xsl:for-each>
+    </xsl:result-document>
+    <xsl:result-document href="fields.md" method="text">
+      <xsl:text>Exercise Data Format (EDF) Fields
+=================================
+
+These are the currently defined fields (total of </xsl:text>
+      <xsl:value-of select="count(//field)"/>
+      <xsl:text>) for the [Exercise Data Format (EDF)](./):&#xa;&#xa;</xsl:text>
+      <xsl:for-each select="//field">
+        <xsl:sort select="@id"/>
+        <xsl:value-of select="@id"/>
+        <xsl:text>: </xsl:text>
+        <xsl:value-of select="name"/>
         <xsl:text>&#xa;----------&#xa;&#xa;</xsl:text>
         <xsl:value-of select="documentation"/>
         <xsl:text>&#xa;&#xa;</xsl:text>
