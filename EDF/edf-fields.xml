@@ -26,4 +26,12 @@
         <name>Skin Temperature</name>
         <documentation>measured in Celsius</documentation>
     </field>
+    <field id="steps">
+        <name>Steps</name>
+        <documentation>measured in steps taken during a given time period</documentation>
+    </field>
+    <field id="GSR">
+        <name>Galvanic Skin Response</name>
+        <documentation>measured in microsiemens</documentation>
+    </field>
 </EDF>

@@ -2,7 +2,13 @@ Exercise Data Format (EDF) Fields
 =================================
 
 
-These are the currently defined fields (total of 6) for the [Exercise Data Format (EDF)](./):
+These are the currently defined fields (total of 8) for the [Exercise Data Format (EDF)](./):
+
+GSR
+----------
+
+**Galvanic Skin Response**: measured in microsiemens
+
 
 HR
 ----------
@@ -32,6 +38,12 @@ stemp
 ----------
 
 **Skin Temperature**: measured in Celsius
+
+
+steps
+----------
+
+**Steps**: measured in steps taken during a given time period
 
 
 time
