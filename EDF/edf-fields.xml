@@ -18,4 +18,12 @@
         <name>Heartrate</name>
         <documentation>measured in beats per minute</documentation>
     </field>
+    <field id="atemp">
+        <name>Air Temperature</name>
+        <documentation>measured in Celsius</documentation>
+    </field>
+    <field id="stemp">
+        <name>Skin Temperature</name>
+        <documentation>measured in Celsius</documentation>
+    </field>
 </EDF>
