@@ -7,7 +7,11 @@
 
 An attempt to create a vocabulary of exercise types than can be shared across services that are concerned with exercises (i.e., physical activities such as hiking, walking, running, or cycling).
 
-So far the following APIs have been taken into consideration:&#xa;&#xa;</xsl:text>
+So far the following </xsl:text>
+      <xsl:value-of select="count(//API)"/>
+      <xsl:text> APIs (with a total of </xsl:text>
+      <xsl:value-of select="count(//API/exercise)"/>
+      <xsl:text> exercise types) have been taken into consideration:&#xa;&#xa;</xsl:text>
       <xsl:for-each select="//API">
         <xsl:sort select="@name"/>
         <xsl:text>* [</xsl:text>
