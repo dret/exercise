@@ -8,5 +8,5 @@ A simple, extensible, and open data format for representing exercise data based 
 
 So far the following 2 fields have been defined:
 
-* [HR: Heartrate](fields#HR)
-* [time: Timestamp](fields#time)
+* [**HR**: Heartrate](fields.md#HR)
+* [**time**: Timestamp](fields.md#time)

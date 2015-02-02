@@ -15,11 +15,11 @@ So far the following </xsl:text>
       <xsl:text> fields have been defined:&#xa;&#xa;</xsl:text>
       <xsl:for-each select="//field">
         <xsl:sort select="@id"/>
-        <xsl:text>* [</xsl:text>
+        <xsl:text>* [**</xsl:text>
         <xsl:value-of select="@id"/>
-        <xsl:text>: </xsl:text>
+        <xsl:text>**: </xsl:text>
         <xsl:value-of select="name"/>
-        <xsl:text>](fields#</xsl:text>
+        <xsl:text>](fields.md#</xsl:text>
         <xsl:value-of select="@id"/>
         <xsl:text>)&#xa;</xsl:text>
       </xsl:for-each>
