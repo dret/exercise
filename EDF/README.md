@@ -8,10 +8,10 @@ A simple, extensible, and open data format for representing exercise data based 
 
 So far the following 9 fields have been defined:
 
-* [**GSR**: Galvanic Skin Response](fields.md#GSR)
-* [**HR**: Heartrate](fields.md#HR)
 * [**alt**: Altitude](fields.md#alt)
 * [**atemp**: Air Temperature](fields.md#atemp)
+* [**GSR**: Galvanic Skin Response](fields.md#GSR)
+* [**HR**: Heartrate](fields.md#HR)
 * [**lat**: Latitude](fields.md#lat)
 * [**lon**: Longitude](fields.md#lon)
 * [**stemp**: Skin Temperature](fields.md#stemp)

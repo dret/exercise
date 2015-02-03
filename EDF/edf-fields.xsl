@@ -14,7 +14,7 @@ So far the following </xsl:text>
       <xsl:value-of select="count(//field)"/>
       <xsl:text> fields have been defined:&#xa;&#xa;</xsl:text>
       <xsl:for-each select="//field">
-        <xsl:sort select="@id"/>
+        <xsl:sort select="lower-case(@id)"/>
         <xsl:text>* [**</xsl:text>
         <xsl:value-of select="@id"/>
         <xsl:text>**: </xsl:text>
