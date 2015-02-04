@@ -418,4 +418,15 @@
         <exercise name="bicycle"/>
         <exercise name="other"/>
     </API>
+    <API id="FIT" name="Flexible and Interoperable Data Transfer Protocol (FIT)" href="http://www.thisisant.com/resources/fit">
+        <exercise name="GENERIC"/>
+        <exercise name="RUNNING"/>
+        <exercise name="CYCLING"/>
+        <exercise name="TRANSITION"/>
+        <exercise name="FITNESS_EQUIPMENT"/>
+        <exercise name="SWIMMING"/>
+        <exercise name="WALKING"/>
+        <exercise name="ALL"/>
+        <exercise name="INVALID"/>
+    </API>
 </exercises>

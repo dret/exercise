@@ -3,10 +3,11 @@ Exercise Types
 
 An attempt to create a vocabulary of exercise types than can be shared across services that are concerned with exercises (i.e., physical activities such as hiking, walking, running, or cycling).
 
-So far the following 8 APIs (with a total of 401 exercise types) have been taken into consideration:
+So far the following 9 APIs (with a total of 410 exercise types) have been taken into consideration:
 
 * [Apple HealthKit](applehealthkit.md) (57 exercise types)
 * [Athlete.com API](athlete.com.md) (11 exercise types)
+* [Flexible and Interoperable Data Transfer Protocol (FIT)](FIT.md) (9 exercise types)
 * [Google Fit](googlefit.md) (111 exercise types)
 * [Health Graph API](healthgraph.md) (32 exercise types)
 * [Moves API](moves.md) (74 exercise types)
