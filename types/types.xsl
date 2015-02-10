@@ -24,7 +24,7 @@ So far the following </xsl:text>
       </xsl:for-each>
     </xsl:result-document>
     <xsl:for-each select="//API">
-      <xsl:result-document href="{@id}.md" method="text">
+      <xsl:result-document href="API/{@id}.md" method="text">
         <xsl:value-of select="concat('[', @name, '](', @href, ')')"/>
         <xsl:text>&#xa;=============&#xa;&#xa;</xsl:text>
         <xsl:for-each select="exercise">
