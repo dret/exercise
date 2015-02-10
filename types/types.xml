@@ -429,4 +429,31 @@
         <exercise name="ALL"/>
         <exercise name="INVALID"/>
     </API>
+    <API id="Active" name="Active Activity Distribution API" href="http://developer.active.com/docs/">
+        <exercise name="running"/>
+        <exercise name="tennis"/>
+        <exercise name="walking"/>
+        <exercise name="recreation"/>
+        <exercise name="swimming"/>
+        <exercise name="baseball"/>
+        <exercise name="triathlon"/>
+        <exercise name="cycling"/>
+        <exercise name="softball"/>
+        <exercise name="basketball"/>
+        <exercise name="distance running"/>
+        <exercise name="soccer"/>
+        <exercise name="fitness"/>
+        <exercise name="golf"/>
+        <exercise name="sports"/>
+        <exercise name="outdoors"/>
+        <exercise name="academic"/>
+        <exercise name="arts and crafts"/>
+        <exercise name="dance"/>
+        <exercise name="gymnastics"/>
+        <exercise name="volleyball"/>
+        <exercise name="child care"/>
+        <exercise name="performing arts"/>
+        <exercise name="mountain biking"/>
+        <exercise name="yoga"/>
+    </API>
 </exercises>
