@@ -16,7 +16,7 @@ So far the following </xsl:text>
         <xsl:sort select="@name"/>
         <xsl:text>* [</xsl:text>
         <xsl:value-of select="@name"/>
-        <xsl:text>](</xsl:text>
+        <xsl:text>](API/</xsl:text>
         <xsl:value-of select="@id"/>
         <xsl:text>.md) (</xsl:text>
         <xsl:value-of select="count(exercise)"/>
