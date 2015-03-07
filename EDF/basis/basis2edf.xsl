@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This XSLT does not use its input XML document, so you can feed it whatever you like. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:db="ugly:hack" exclude-result-prefixes="xs db" version="2.0">
     <xsl:output method="text" encoding="UTF-8"/>
     <xsl:param name="basis-csv" select="'basis.csv'"/>
