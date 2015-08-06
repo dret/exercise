@@ -58,3 +58,4 @@ time
 **Timestamp**: [Internet Timestamps (RFC 3339)](https://tools.ietf.org/html/rfc3339)
 
 
+Note: [draft-jennings-core-senml](https://tools.ietf.org/html/draft-jennings-core-senml#section-11.1) defines a set of units for any kind of values. It would be conceivable to apply such a framework in order to allow and use existing unit identifiers. However, this would complicate consumption and might introduce risks, because implementations might not always interpret unit identifiers and convert values accordingly.
