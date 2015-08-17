@@ -1,7 +1,7 @@
 Exercise Data
 =============
 
-An attempt to bring some interoperability to the world of exercise data. This is constantly evolving and driven by the needs of bringing together data that originates in data and services provided by fitbands, GPS watches, or smartphone apps.
+This is an attempt to bring some interoperability to the world of exercise data. The format and the information listed here is constantly evolving and driven by the needs of bringing together data that originates in data and services provided by fitbands, GPS watches, or smartphone apps.
 
 
 Exercise Data Format (EDF)
