@@ -456,4 +456,39 @@
         <exercise name="mountain biking"/>
         <exercise name="yoga"/>
     </API>
+    <API id="miCoach" name="Adidas miCoach API" href="https://developers.adidas.com/micoach/">
+        <exercise name="run"/>
+        <exercise name="walk"/>
+        <exercise name="cycle"/>
+        <exercise name="golf"/>
+        <exercise name="soccer"/>
+        <exercise name="americanFootball"/>
+        <exercise name="tennis"/>
+        <exercise name="swimming"/>
+        <exercise name="squash"/>
+        <exercise name="basketball"/>
+        <exercise name="weightTraining"/>
+        <exercise name="skiingBoarding"/>
+        <exercise name="hiking"/>
+        <exercise name="nordicSkiing"/>
+        <exercise name="strengthAndFlexibility"/>
+        <exercise name="handball"/>
+        <exercise name="rugby"/>
+        <exercise name="hockey"/>
+        <exercise name="yoga"/>
+        <exercise name="aerobics"/>
+        <exercise name="circuitTraining"/>
+        <exercise name="mountainBikeCycling"/>
+        <exercise name="stationaryBikeCycling"/>
+        <exercise name="dancing"/>
+        <exercise name="horseRiding"/>
+        <exercise name="kayaking"/>
+        <exercise name="indoorRowing"/>
+        <exercise name="outdoorRowing"/>
+        <exercise name="trailRunning"/>
+        <exercise name="treadmill"/>
+        <exercise name="inlineSkating"/>
+        <exercise name="skiMountaineering"/>
+        <exercise name="crossTrainer"/>
+    </API>
 </exercises>
