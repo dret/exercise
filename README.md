@@ -4,7 +4,7 @@ This is an attempt to bring some interoperability to the world of exercise data.
 
 While in the long run this might evolve into something a bit more sophisticated, for now the main goal is to be simple to use and evolve. Therefore, the format uses CSV and some very simple ways of representing metadata.
 
-Note: The [JSON Training/Track Format (JTT)](../JTT) is a more comprehensive approach, based on the goal to provide an JSON-based alternative to older XML-based formats such as GPX and TCX. It is likely that the "Exercise Data" format described here will not be further developed.
+Note: The [JSON Training/Track Format (JTT)](../../../JTT) is a more comprehensive approach, based on the goal to provide an JSON-based alternative to older XML-based formats such as GPX and TCX. It is likely that the "Exercise Data" format described here will not be further developed.
 
 
 ## Exercise Data Format (EDF)
