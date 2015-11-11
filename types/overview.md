@@ -1,7 +1,7 @@
 Exercise Types
 ==============
 
-An attempt to create a vocabulary of exercise types than can be shared across services that are concerned with exercises (i.e., physical activities such as hiking, walking, running, or cycling).
+An attempt to create a vocabulary of exercise types that can be shared across services that are concerned with exercises (i.e., physical activities such as hiking, walking, running, or cycling).
 
 So far the following 11 APIs (with a total of 468 exercise types) have been taken into consideration:
 

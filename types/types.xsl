@@ -2,10 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
   <xsl:template match="/">
     <xsl:result-document href="overview.md" method="text">
-      <xsl:text>Exercise Types
-==============
+      <xsl:text># Exercise Types
 
-An attempt to create a vocabulary of exercise types than can be shared across services that are concerned with exercises (i.e., physical activities such as hiking, walking, running, or cycling).
+An attempt to create a vocabulary of exercise types that can be shared across services that are concerned with exercises (i.e., physical activities such as hiking, walking, running, or cycling).
 
 So far the following </xsl:text>
       <xsl:value-of select="count(//API)"/>
